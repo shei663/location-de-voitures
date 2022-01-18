@@ -1,0 +1,348 @@
+/*--------------------------format laptop- et dessus------------------*/
+
+@media screen and (max-width: 1024px) {
+
+
+
+
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  
+  
+  
+  
+  
+  body {
+    margin: auto;
+    width: 100%;
+  }
+
+  
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+  }
+
+  .bloc1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  
+  
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  
+  .box1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  
+  
+  .box2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+
+  
+  .box3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  .box .img_small{
+    
+    display:none;
+  
+  
+  }
+  
+
+  section {
+    text-align: center;
+    justify-content: center;
+  }
+  
+
+
+  p {
+    text-align: center;
+    width: auto;
+  }
+  
+  
+  
+  
+  
+  img {
+    
+    max-width: 100%;
+    height: auto;
+  
+  }
+  
+
+  
+.last1
+{
+
+
+	display:flex;
+	flex-direction: column;
+	
+
+
+  margin-top: 100px;
+  margin-right: -30px;
+
+	
+
+}
+
+
+
+
+
+
+.last2
+
+{
+	display: none;
+
+	
+}
+
+
+aside{
+	margin-top:210px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*------------------------tablette-----------------------------*/
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  
+  header {
+    width:75%;
+    margin-top: 2px;
+  }
+  
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content:center;
+  }
+  
+  
+  nav + img {
+    display: none;
+  }
+  
+  
+  
+  .cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+  }
+  
+  
+  button {
+    width: 45%;
+  }
+
+  
+  main {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding:5px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .bloc1 {
+    width: 80%;
+  }
+  
+  
+  
+  .lstcont {     
+    display: none;
+  }
+  
+  
+  
+  
+  .box {
+    width: 100%;
+  }
+
+  
+  .box .img_big{
+
+
+
+
+    display:none;
+
+
+  }
+  
+  
+  
+  
+  .box .img_small{
+
+    display:grid;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+    margin-top: -70px;
+
+
+  }
+  #section3 .img_small{
+    width: 50%;
+    height: 60%;
+    margin-top: 10px;
+    
+    
+  }
+  #section2 .img_small{
+    width: 50%;
+    height: 60%;
+    margin-top: 20px;
+
+    
+  }
+
+ 
+
+  
+
+}
+
+
+/*-------------------------smartphone 425px*916-------------------------*/
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 75%;
+    height: 10%;
+    margin-top: 5%;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  nav + img {
+    display: none;
+  }
+  .cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  button {
+    margin: auto;
+    width: 30%;
+  }
+  
+  
+  
+  
+  
+  .cont nav button a {
+    margin: 5px;
+  }
+  
+  .box{ /*Recentrage des containers gris (section)*/
+    margin-left: -6px;
+  }
+  
+  
+  .bloc1 {
+    width: 80%;
+  }
+  
+  
+  
+  
+  .lstcont {
+    display: none;
+  }
+
+
+
+
+
+  main {
+    width: 85%;
+ 
+  }
+
+
+
+  .box {
+    width: 100%;
+  }
+  
+  
+  
+  h1{
+    font-size:medium;
+  }
+
+  .box .img_small{
+  display: none;
+  
+  
+  }
+}

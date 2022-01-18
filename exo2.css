@@ -1,0 +1,231 @@
+
+	body{
+	background-color: royalblue;
+}
+
+header{
+	margin: auto;
+	width: 80%;
+	border: 2px solid purple;
+	background-color: rgb(55, 22, 97);
+	padding: 25px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	
+}
+h1{
+	color: violet;
+	text-align: center;
+}
+
+
+.cont{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content:space-around;
+}
+
+
+nav {
+	
+	
+	text-decoration: none;
+	color: teal;
+	margin-bottom: 10px;
+	
+}
+a{
+	text-decoration: none;
+	color:greenyellow;
+}
+button{
+	border: 2px solid peru;
+	border-radius: 25px;
+	width: 200px;
+	background-color: grey;
+	margin-bottom: 50px;
+	
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+main{
+	margin: auto;
+	display: flex;
+	flex-direction:row;
+	border:2px solid goldenrod;
+
+	
+	justify-content: space-evenly;
+	
+	width: 80%;
+	background-color:rgb(55, 22, 97) ;
+	padding: 25px;
+}p{
+	
+	height: 150px;
+	overflow: auto;
+	margin: auto;
+}
+section{ 
+	
+	width:100% ;
+	background-color: dimgray;
+	border: 1px solid peru;
+	margin-bottom: 5px;
+	padding: 5px;
+
+
+	
+	
+}
+.bloc1{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+h2{ text-align: center;
+	color: rgb(101, 255, 30);
+	text-decoration:underline;
+	font-size: xx-large;
+	
+}
+
+
+
+
+
+
+
+
+
+
+h3{
+	font-size: xx-large;
+	color: fuchsia;
+	border: 1px solid fuchsia ;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+figcaption{
+	text-align: center;
+	color:gold;
+}
+
+
+
+section img{
+	
+	border: 1px solid peru;
+	margin:5px;
+	padding: 2px;
+	width: 500px;
+	height: 350px;
+}
+
+
+
+.box1{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+
+.box2{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.box3{
+	display: flex;
+	flex-direction: row;
+}
+
+.box .img_small{
+
+
+
+
+    display:none;
+
+
+  }
+
+
+
+#p2{
+	height:180px;
+}
+
+
+
+
+#p3{
+	height:150px;
+}
+
+
+
+	
+/*---------------------------aside-----------------------*/
+
+
+
+
+.last1
+{
+
+
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	text-align:center;
+
+	
+
+}
+
+
+
+
+
+
+.last2
+
+{
+	display: none;
+
+	
+}
+
+
+aside{
+	margin-top:80px;
+}
+
+
